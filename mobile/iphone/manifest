@@ -1,8 +1,8 @@
-#
+I#
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.1
+version: 1.1.x
 apiversion: 2
 description: extensions for Titanium.UI components
 author: Paul Mietz Egli

@@ -30,10 +30,6 @@
 		DA571F4A1541CC55005BCCEF /* ComObscureTiUIExImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA571F481541CC55005BCCEF /* ComObscureTiUIExImageView.m */; };
 		DA571F501541CF44005BCCEF /* ComObscureTiUIExImageViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DA571F4E1541CF44005BCCEF /* ComObscureTiUIExImageViewProxy.h */; };
 		DA571F511541CF45005BCCEF /* ComObscureTiUIExImageViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA571F4F1541CF44005BCCEF /* ComObscureTiUIExImageViewProxy.m */; };
-		DA8001A21541B63400AF0C17 /* TiUITabGroupProxyEx.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8001A01541B63400AF0C17 /* TiUITabGroupProxyEx.h */; };
-		DA8001A31541B63400AF0C17 /* TiUITabGroupProxyEx.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8001A11541B63400AF0C17 /* TiUITabGroupProxyEx.m */; };
-		DAA56C6B17611ABB006F3BB6 /* TiUIiOSToolbarProxy+Extended.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA56C6917611ABB006F3BB6 /* TiUIiOSToolbarProxy+Extended.h */; };
-		DAA56C6C17611ABB006F3BB6 /* TiUIiOSToolbarProxy+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA56C6A17611ABB006F3BB6 /* TiUIiOSToolbarProxy+Extended.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +53,6 @@
 		DA571F481541CC55005BCCEF /* ComObscureTiUIExImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComObscureTiUIExImageView.m; path = Classes/ComObscureTiUIExImageView.m; sourceTree = "<group>"; };
 		DA571F4E1541CF44005BCCEF /* ComObscureTiUIExImageViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComObscureTiUIExImageViewProxy.h; path = Classes/ComObscureTiUIExImageViewProxy.h; sourceTree = "<group>"; };
 		DA571F4F1541CF44005BCCEF /* ComObscureTiUIExImageViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComObscureTiUIExImageViewProxy.m; path = Classes/ComObscureTiUIExImageViewProxy.m; sourceTree = "<group>"; };
-		DA8001A01541B63400AF0C17 /* TiUITabGroupProxyEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiUITabGroupProxyEx.h; path = Classes/TiUITabGroupProxyEx.h; sourceTree = "<group>"; };
-		DA8001A11541B63400AF0C17 /* TiUITabGroupProxyEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiUITabGroupProxyEx.m; path = Classes/TiUITabGroupProxyEx.m; sourceTree = "<group>"; };
-		DAA56C6917611ABB006F3BB6 /* TiUIiOSToolbarProxy+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiUIiOSToolbarProxy+Extended.h"; path = "Classes/TiUIiOSToolbarProxy+Extended.h"; sourceTree = "<group>"; };
-		DAA56C6A17611ABB006F3BB6 /* TiUIiOSToolbarProxy+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiUIiOSToolbarProxy+Extended.m"; path = "Classes/TiUIiOSToolbarProxy+Extended.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,14 +99,10 @@
 			children = (
 				DA07541B1541CA090008EA2F /* ComObscureTiUIExModule.h */,
 				DA07541C1541CA090008EA2F /* ComObscureTiUIExModule.m */,
-				DA8001A01541B63400AF0C17 /* TiUITabGroupProxyEx.h */,
-				DA8001A11541B63400AF0C17 /* TiUITabGroupProxyEx.m */,
 				DA571F471541CC55005BCCEF /* ComObscureTiUIExImageView.h */,
 				DA571F481541CC55005BCCEF /* ComObscureTiUIExImageView.m */,
 				DA571F4E1541CF44005BCCEF /* ComObscureTiUIExImageViewProxy.h */,
 				DA571F4F1541CF44005BCCEF /* ComObscureTiUIExImageViewProxy.m */,
-				DAA56C6917611ABB006F3BB6 /* TiUIiOSToolbarProxy+Extended.h */,
-				DAA56C6A17611ABB006F3BB6 /* TiUIiOSToolbarProxy+Extended.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -136,11 +124,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA747D9F0F9514B9006C5449 /* ComObscureTiUIEx_Prefix.pch in Headers */,
-				DA8001A21541B63400AF0C17 /* TiUITabGroupProxyEx.h in Headers */,
 				DA0754211541CA090008EA2F /* ComObscureTiUIExModule.h in Headers */,
 				DA571F491541CC55005BCCEF /* ComObscureTiUIExImageView.h in Headers */,
 				DA571F501541CF44005BCCEF /* ComObscureTiUIExImageViewProxy.h in Headers */,
-				DAA56C6B17611ABB006F3BB6 /* TiUIiOSToolbarProxy+Extended.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,11 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8001A31541B63400AF0C17 /* TiUITabGroupProxyEx.m in Sources */,
 				DA0754221541CA090008EA2F /* ComObscureTiUIExModule.m in Sources */,
 				DA571F4A1541CC55005BCCEF /* ComObscureTiUIExImageView.m in Sources */,
 				DA571F511541CF45005BCCEF /* ComObscureTiUIExImageViewProxy.m in Sources */,
-				DAA56C6C17611ABB006F3BB6 /* TiUIiOSToolbarProxy+Extended.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +223,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
-				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DSTROOT = /tmp/ComObscureTiUIEx.dst;
@@ -260,6 +244,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = (
 					"-DDEBUG",
@@ -282,7 +267,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
-				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/ComObscureTiUIEx.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
@@ -317,11 +302,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
-				"ARCHS[sdk=iphoneos*]" = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphonesimulator*]" = i386;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DSTROOT = /tmp/ComObscureTiUIEx.dst;
@@ -341,7 +321,14 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)/**",
+					"$(TITANIUM_BASE_SDK2)/**",
+					"$(TITANIUM_BASE_SDK3)/**",
+					"$(TITANIUM_BASE_SDK4)/**",
+				);
 				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DDEBUG",
@@ -362,11 +349,6 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"ARCHS[sdk=iphoneos*]" = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphonesimulator*]" = i386;
 				DSTROOT = /tmp/ComObscureTiUIEx.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
@@ -384,8 +366,14 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)/**",
+					"$(TITANIUM_BASE_SDK2)/**",
+					"$(TITANIUM_BASE_SDK3)/**",
+					"$(TITANIUM_BASE_SDK4)/**",
+				);
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ComObscureTiUIEx;

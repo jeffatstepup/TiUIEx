@@ -12,7 +12,7 @@
 #import "TiHost.h"
 #import "TiUtils.h"
 
-#import "TiUITabGroupProxyEx.h"
+//#import "TiUITabGroupProxyEx.h"
 
 @implementation ComObscureTiUIExModule
 
@@ -90,14 +90,5 @@
 }
 
 #pragma Public APIs
-
-- (id)createTabGroup:(id)args {
-    NSDictionary * properties;
-    ENSURE_ARG_OR_NIL_AT_INDEX(properties, args, 0, NSDictionary)
-    
-    TiUITabGroupProxyEx * result = [[[TiUITabGroupProxyEx alloc] init] autorelease];
-    [result _initWithProperties:properties];
-    return result;
-}
 
 @end
